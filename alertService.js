@@ -39,6 +39,8 @@
             // If it's okay let's create a notification
             var notification = new Notification(message);
         }
+        else
+            alert(message);
     }
     (function setUpNotify() {
         // Let's check if the browser supports notifications
